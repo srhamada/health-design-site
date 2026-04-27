@@ -2045,6 +2045,23 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 /* ============================================
+   INTRO BAND（ファーストビュー直下 SEO テキスト帯）
+   ============================================ */
+.intro-band {
+  padding: 26px 0;
+  background: var(--color-primary-xxl);
+  border-bottom: 1px solid var(--color-border);
+}
+.intro-band__text {
+  text-align: center;
+  font-size: .93rem;
+  color: var(--color-text-sub);
+  line-height: 1.9;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* ============================================
    SUPPLEMENTARY（補足）
    ============================================ */
 .supplementary {
