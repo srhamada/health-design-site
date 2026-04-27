@@ -72,6 +72,7 @@ body {
   background: var(--color-bg);
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 img { max-width: 100%; display: block; }
@@ -1477,6 +1478,19 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .contact__form { padding: 32px 22px; }
   .form-row--half { flex-direction: column; }
   .contact__info { flex-direction: column; }
+  .contact__form--external { gap: 24px; }
+  .contact__ext-action {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .contact__ext-action .btn {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .contact__info-value { font-size: .95rem; }
 }
 
 /* ============================================
